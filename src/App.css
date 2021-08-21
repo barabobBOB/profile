@@ -1,7 +1,10 @@
 .App {
   color: black;
-  font-Size: 40px;
+  font-Size: 200%;
   font-weight: 700;
+  font-family: NotoSansKR-Bold;
+  position:relative;
+  top: 400px; left:50%;
 }
 
 .App-logo {
