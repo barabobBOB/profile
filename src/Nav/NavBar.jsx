@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Burger from './Burger';
-import Loading from "../profile_logo.jpg/"
+
 const Nav = styled.nav`
   width: 100%;
   height: 55px;
@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <Nav>
       <div className="logo">
-      <img src={Loading} className="logoimg" alt="profile_logo"/>
+      <img src="../public/profile_logo.jpg/" className="logoimg" alt="profile_logo"/>
       </div>
       <Burger />
     </Nav>
